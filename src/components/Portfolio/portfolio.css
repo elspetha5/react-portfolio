@@ -1,0 +1,7 @@
+#portfolio {
+    background-image: url(./pinkdust.png);
+    min-height: 100%;
+    float: left;
+    width: 100%;
+    padding: 100px 0 50px;
+}

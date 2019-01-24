@@ -1,0 +1,73 @@
+#navbar {
+    padding: 15px;
+    box-shadow: 0 3px 5px black;
+    text-align: center;
+    position: fixed;
+    background: white;
+    width: 95%;
+    top: 0;
+    left: 0;
+}
+
+#navName {
+    font-family: 'Francois One', sans-serif;
+    font-size: 110%;
+}
+
+#navName:hover {
+    color: tomato;
+}
+
+#social {
+    margin-top: 7px;
+}
+
+.socialLink {
+    margin: 0 7px;
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+    padding-left: 7px;
+    border-left: .5px solid rgb(185, 185, 185);
+    font-size: 90%;
+}
+
+.socialLink:hover {
+    color: rgb(97, 97, 97);
+}
+
+@media screen and (min-width: 768px) {
+    #navbar {
+        width: 100%;
+    }
+    #navName {
+        font-size: 135%;
+        float: left;
+        margin-left: 15%;
+    }
+    #social {
+        margin-top: 0px;
+        float: right;
+        margin-right: 15%;
+    }
+    .socialLink {
+        font-size: 80%;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    #navbar {
+        width: 100%;
+    }
+    #navName {
+        font-size: 150%;
+        float: left;
+        margin-left: 20%;
+    }
+    #social {
+        float: right;
+        margin-right: 20%;
+    }
+    .socialLink {
+        font-size: 100%;
+    }
+}

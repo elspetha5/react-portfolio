@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": ".",
+        "pic": "/images/dsp.png",
+        "ss": "/images/dspSS.png",
+        "rlink": "https://github.com/elspetha5/dsp-splash-page",
+        "dlink": "https://dsp.design/"
+    },
+    {
+        "id": 2,
+        "name": "Sofa Surfing",
+        "pic": "/images/sofaSurfing.png",
+        "ss": "/images/sofaSurfingSS.png",
+        "rlink": "https://github.com/elspetha5/clicky-game-react",
+        "dlink": "https://elspetha5.github.io/clicky-game-react/"
+    },
+    {
+        "id": 3,
+        "name": "My Town",
+        "pic": "/images/myTown.png",
+        "ss": "/images/myTownSS.png",
+        "rlink": "https://github.com/elspetha5/MyTown",
+        "dlink": "https://pacific-earth-35194.herokuapp.com/"
+    },
+    {
+        "id": 4,
+        "name": "Broadway Trivia",
+        "pic": "/images/trivia.png",
+        "ss": "/images/triviaSS.png",
+        "rlink": "https://github.com/elspetha5/TriviaGame",
+        "dlink": "https://elspetha5.github.io/TriviaGame/"
+    },
+    {
+        "id": 5,
+        "name": "Farmers MarkIt",
+        "pic": "/images/markit.png",
+        "ss": "/images/markitSS.png",
+        "rlink": "https://github.com/elspetha5/FarmersMarkIt",
+        "dlink": "https://elspetha5.github.io/FarmersMarkIt/"
+    },
+    {
+        "id": 6,
+        "name": "Giphy Gifs",
+        "pic": "/images/Giphy.png",
+        "ss": "/images/GiphySS.png",
+        "rlink": "https://github.com/elspetha5/GIPHY",
+        "dlink": "https://elspetha5.github.io/GIPHY/"
+    }
+]

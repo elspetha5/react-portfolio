@@ -1,0 +1,25 @@
+#name {
+    font-size: 200%;
+    font-family: 'Francois One', sans-serif;
+    margin: 20% 0 30px;
+}
+
+#summary {
+    color: grey;
+    margin: 0 0 30%;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 980px) {
+    #name {
+        margin: 10% 0 60px;
+    }
+    #summary {
+        margin: 0 0 10% 10%;
+        font-size: 120%;
+        width: 80%;
+    }
+}

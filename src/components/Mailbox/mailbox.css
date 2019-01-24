@@ -1,0 +1,79 @@
+#mailbox {
+    position: fixed;
+    top: 30%;
+    left: 20%;
+}
+
+.on {
+    -webkit-animation: mailbox 4s forwards;
+    animation: mailbox 4s forwards;
+}
+
+.off {
+    opacity: 0;
+}
+
+#box {
+    height: 40px;
+    width: 60px;
+    background: grey;
+    margin: 30px 0 0 -5px;
+    box-shadow: 2px 5px 5px grey;
+}
+
+#opening {
+    height: 40px;
+    width: 5px;
+    background-color: black;
+    margin: -40px 0 0 50px;
+    border-radius: 100% 100% 15% 0;
+}
+
+#door {
+    height: 40px;
+    width: 10px;
+    background: grey;
+    margin: -20px 0 0 65px;
+    border-radius: 100% 100% 15% 0;
+    border: .5px solid silver;
+    -ms-transform: skew(-45deg) rotate(100deg);
+    -webkit-transform: skew(-45deg) rotate(100deg);
+    transform: skew(-45deg) rotate(100deg);
+    box-shadow: 2px 5px 5px grey;
+}
+
+@keyframes mailbox {
+    0% {
+    }
+    5% {
+        -ms-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+    10% {
+        -ms-transform: rotate(-30deg);
+        -webkit-transform: rotate(-30deg);
+        transform: rotate(-30deg);
+    }
+    15% {
+        -ms-transform: rotate(10deg);
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg);
+    }
+    20% {
+        -ms-transform: rotate(-10deg);
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+    25% {
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
